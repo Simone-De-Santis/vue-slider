@@ -1,3 +1,27 @@
-h1 {
-  color: red;
+body {
+  background-image: url("../img/Sfondi-desktop-full-HD-mare-dei-caraibi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mybg-transparent {
+  background-color: #249ca847;
+}
+.my-clickable {
+  cursor: pointer;
+}
+img {
+  display: none;
+}
+img.active {
+  max-height: 90%;
+  display: inline-block;
+}
+
+.height-fix {
+  height: 600px;
+}
+.cursor-indicators {
+  background-color: #00000054;
+  width: auto;
 }
