@@ -38,7 +38,7 @@ const app = new Vue({
     },
     decreaseIndex() {
       if (this.currentIndex === 0) {
-        this.currentIndex = 0;
+        this.currentIndex = this.linkImage.length - 1;
       } else this.currentIndex--;
     },
   },
